@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrapya</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
@@ -17,7 +21,7 @@
       <div
         class="mask d-flex flex-column align-items-center justify-content-between text-center h-100"
       >
-        <nav class="navbar navbar-expand-lg navbar-dark mt-3">
+        <nav class="navbar navbar-expand-lg navbar-dark w-100 mt-3">
           <div class="container-md bg-purple">
             <a class="navbar-brand" href="#">bootstrapya</a>
             <button
@@ -56,7 +60,7 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Blog</a>
                 </li>
-                <button type="button" class="btn btn-info text-white">
+                <button type="button" class="btn btn-primary text-white">
                   Create your app
                 </button>
               </ul>
@@ -71,7 +75,7 @@
           <div>
             <button
               type="button"
-              class="btn btn-warning text-white rounded-pill"
+              class="btn btn-warning text-white rounded-pill py-3 px-4"
             >
               Create your app<i class="bi bi-caret-right-fill ms-2"></i>
             </button>
@@ -82,13 +86,15 @@
       </div>
     </header>
     <main class="my-5">
-      <section>
-        <div class="text-center">
-          <h3>Industry Specific <b>Solutions</b></h3>
-          <h3>Developed with Your End-User in Mind</h3>
+      <section
+        class="d-flex flex-column align-items-center justify-content-center text-center"
+      >
+        <div class="my-5">
+          <h1>Industry Specific <b>Solutions</b></h1>
+          <h1>Developed with Your End-User in Mind</h1>
         </div>
-        <div class="d-flex flex-wrap align-items-center justify-content-center">
-          <div class="card">
+        <div class="card-deck d-flex justify-content-center my-3">
+          <div class="card w-25 mx-2">
             <img
               class="card-img-top"
               src="https://www.eventya.net/wp-content/uploads/2020/09/box-smart-city-home.jpg"
@@ -97,12 +103,12 @@
             <div class="card-body">
               <h5 class="card-title">Smart City</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Mobile apps and websites that help city halls connect and engage
+                with citizens to create a sustainable, smarter city.
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card w-25 mx-2">
             <img
               class="card-img-top"
               src="https://www.eventya.net/wp-content/uploads/2020/09/box-tourism-home2.png"
@@ -111,12 +117,12 @@
             <div class="card-body">
               <h5 class="card-title">Tourism and Travel</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Tourism apps and websites that help adventure-looking travellers
+                engage with top attractions within your destination.
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card w-25 mx-2">
             <img
               class="card-img-top"
               src="https://www.eventya.net/wp-content/uploads/2020/12/box-content-creators.jpg"
@@ -124,13 +130,12 @@
             />
             <div class="card-body">
               <h5 class="card-title">Content Creators & Podcasters</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <p class="card-text">Engage and grow your audience, your way!</p>
             </div>
           </div>
-          <div class="card">
+        </div>
+        <div class="card-deck d-flex justify-content-center my-3">
+          <div class="card w-25 mx-2">
             <img
               class="card-img-top"
               src="https://www.eventya.net/wp-content/uploads/2020/09/box-festival-home.jpg"
@@ -139,12 +144,12 @@
             <div class="card-body">
               <h5 class="card-title">Festivals</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Eventya helps festival organisers build modern, well-designed
+                Festival App & Website.
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card w-25 mx-2">
             <img
               class="card-img-top"
               src="https://www.eventya.net/wp-content/uploads/2020/09/box-theatre-home.png"
@@ -153,12 +158,12 @@
             <div class="card-body">
               <h5 class="card-title">Theaters, Philharmonics</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                A must-have app and website for all theater, philharmonic lovers
+                to make sure they don’t miss a thing!
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card w-25 mx-2">
             <img
               class="card-img-top"
               src="https://www.eventya.net/wp-content/uploads/2020/09/box-museums-zoo-home.png"
@@ -167,12 +172,14 @@
             <div class="card-body">
               <h5 class="card-title">Museums, Zoos and Theme Parks</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Museums, Zoos and Theme Parks use Eventya to enhance their
+                visitor experience and stay in touch with them.
               </p>
             </div>
           </div>
-          <div class="card">
+        </div>
+        <div class="card-deck d-flex justify-content-center my-3">
+          <div class="card w-25 mx-2">
             <img
               class="card-img-top"
               src="https://www.eventya.net/wp-content/uploads/2021/01/box-church-app.jpg"
@@ -181,12 +188,12 @@
             <div class="card-body">
               <h5 class="card-title">Churches</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Build your community with a Church App: scripture-based content,
+                live sermons, and an interactive event calendar.
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card w-25 mx-2">
             <img
               class="card-img-top"
               src="https://www.eventya.net/wp-content/uploads/2020/09/box-community-home.jpg"
@@ -195,12 +202,12 @@
             <div class="card-body">
               <h5 class="card-title">Communities</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Community Mobile Apps help improve People’ Engagement and
+                cultivate Members’ Loyalty
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card w-25 mx-2">
             <img
               class="card-img-top"
               src="https://www.eventya.net/wp-content/uploads/2022/08/box-news-app-2.jpg"
@@ -209,18 +216,136 @@
             <div class="card-body">
               <h5 class="card-title">Newspapers</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Eventya’s news feed module delivers the most recent news to your
+                audience’s smartphones
               </p>
             </div>
           </div>
-          <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap" />
+        </div>
+        <div class="card w-25 mt-3 mb-5">
+          <img class="card-img-top" src="./img/recycling.jpg" alt="Recycling" />
+          <div class="card-body">
+            <h5 class="card-title">Recycling App</h5>
+            <p class="card-text">The best app for recycling.</p>
+          </div>
+        </div>
+        <h1 class="my-5">Looking for a different solution?</h1>
+        <button type="button" class="btn btn-primary text-white mb-5">
+          Let's get in touch
+        </button>
+      </section>
+      <section
+        class="d-flex align-items-center justify-content-center bg-grey"
+      >
+        <div>
+          <h1 class="mt-5 text-center">
+            <b>Reasons</b> to create your <b>mobile app</b> with Bootstrapya
+          </h1>
+          <div class="container row py-5">
+            <div class="col-md-5">
+              <img src="./img/app.png" alt="Mobile app" class="img-fluid" />
+            </div>
+            <div class="col-md-5 ms-4">
+              <div class="d-flex py-3">
+                <div><i class="bi bi-gear font-xl me-4 text-secondary"></i></div>
+                <div>
+                  <h5><b>Customisable platform</b></h5>
+                  <p class="text-secondary">
+                    iOS and Android native apps and websites. No coding skills
+                    required
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex py-3">
+                <div><i class="bi bi-gift font-xl me-4 text-secondary"></i></div>
+                <div>
+                  <h5><b>Ready-built solution</b></h5>
+                  <p class="text-secondary">
+                    10x faster and 10 x cheaper than developing from scratch
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex py-3">
+                <div>
+                  <i class="bi bi-pencil font-xl me-4 text-secondary"></i>
+                </div>
+                <div>
+                  <h5><b>We’ve got your back</b></h5>
+                  <p class="text-secondary">
+                    Design, content and marketing services for your platform
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="d-flex flex-column align-items-center justify-content-center"
+      >
+        <h1>How to Get Your Mobile App - <b>Step by Step</b></h1>
+        <h5 class="text-secondary">
+          You can have your own mobile app in 3 simple steps.
+        </h5>
+        <div class="card-deck d-flex justify-content-center my-3">
+          <div class="card w-25 mx-2">
+            <img
+              class="card-img-top"
+              src="https://www.eventya.net/wp-content/uploads/2021/01/church-app-step-1.jpg"
+              alt="Step 1"
+            />
             <div class="card-body">
-              <h5 class="card-title">Recycling App</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <h5 class="card-title">1. Request a Trial for your Mobile App</h5>
+              <p>
+                Access the Create Your App page and fill out the form. Kindly
+                input your organization’s website address, contact information,
+                and your mobile app’s desired features.
+              </p>
+              <p>
+                Once you’ve submitted the form, you’ll be contacted within 3
+                business days by our development team to start your mobile app.
+              </p>
+            </div>
+          </div>
+          <div class="card w-25 mx-2">
+            <img
+              class="card-img-top"
+              src="https://www.eventya.net/wp-content/uploads/2021/01/church-app-step-2.jpg"
+              alt="Step 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">2. App Management Training</h5>
+              <p>
+                At any time during your 90 days trial, you can request an app
+                management training with one of our consultants.
+              </p>
+              <p>
+                The training will be conducted over a call by our dedicated app
+                administrator.
+              </p>
+              <p>
+                You will learn how to set up your app, how to start adding
+                content and how to keep your audience engaged.
+              </p>
+            </div>
+          </div>
+          <div class="card w-25 mx-2">
+            <img
+              class="card-img-top"
+              src="https://www.eventya.net/wp-content/uploads/2021/01/church-app-step-3.jpg"
+              alt="Step 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">3. Google Play and iTunes Submission</h5>
+              <p>
+                Once you’ve tested out the mobile app and you’re ready to
+                purchase, you’ll have to move to a paid account. This is where
+                we’ll submit your app.
+              </p>
+              <p>
+                We’ll need around 3-5 business days to prepare your app for
+                submission. We’ll have to wait around 7-15 business days for
+                iTunes and 1-3 days for Google Play approval.
               </p>
             </div>
           </div>
@@ -228,27 +353,6 @@
       </section>
 
       <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <img
-              src="https://picsum.photos/id/233/600/400"
-              alt=""
-              class="img-fluid"
-            />
-          </div>
-          <div class="col-md-5">
-            <h1 class="mt-5">Tagline</h1>
-            <p class="mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              veniam suscipit accusantium quibusdam dicta nesciunt esse? Id
-              itaque incidunt sint distinctio voluptatem tempore tempora aliquam
-              sunt, vel, repellat velit. Vel!
-            </p>
-            <button type="button" class="btn btn-primary mt-3">
-              Call to action!
-            </button>
-          </div>
-        </div>
         <div class="row my-5">
           <div class="col">
             <div class="bg-secondary text-white my-3 py-3 card text-center">

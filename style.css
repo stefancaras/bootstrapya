@@ -13,6 +13,9 @@ header {
 .bg-purple {
     background-color: #556ecb;
 }
+.bg-grey {
+    background-color: #f0f0f0;
+}
 .nav-link {
     margin-right: 1rem;
 }
@@ -25,4 +28,10 @@ header {
 }
 .card {
     width: 18rem;
+}
+.font-xl {
+    font-size: 4rem;
+}
+.bi::before {
+    vertical-align: unset !important;
 }
