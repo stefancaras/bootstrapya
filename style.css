@@ -1,8 +1,14 @@
+body {
+    font-size: xx-small;
+}
 header {
     height: 100vh;
     background-image: url(./img/stock_typing.png);
     background-size: cover;
     background-position: center center;
+}
+.mask {
+    background-color: #556fcbd7;
 }
 .bg-purple {
     background-color: #556ecb;
@@ -16,4 +22,7 @@ header {
 }
 .fit-content {
     width: fit-content;
+}
+.card {
+    width: 18rem;
 }
