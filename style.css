@@ -34,7 +34,7 @@ header {
 .nav-link {
     margin-right: 1rem;
 }
-.bold-italic {
+.navbar-brand {
     font-weight: bold;
     font-style: italic;
 }
@@ -78,7 +78,7 @@ header {
 #launch {
     background-image: url("./img/office2.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
 }
 #clients-img {
     width: 100%;
