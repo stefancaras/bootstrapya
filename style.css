@@ -16,6 +16,18 @@ header {
 .bg-grey {
     background-color: #f0f0f0;
 }
+.bg-blue {
+    background-color: #3eabf9 !important;
+}
+.bg-orange {
+    background-color: #fd990f !important;
+}
+.text-blue {
+    color: #3eabf9 !important;
+}
+.bold {
+    font-weight: bold;
+}
 .nav-link {
     margin-right: 1rem;
 }
@@ -32,6 +44,9 @@ header {
 .font-xl {
     font-size: 4rem;
 }
-.bi::before {
-    vertical-align: unset !important;
+.app-icon .bi::before {
+    vertical-align: unset;
+}
+.card-title {
+    font-weight: bold;
 }
