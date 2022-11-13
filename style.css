@@ -61,12 +61,35 @@ header {
     width: 20%;
     min-width: fit-content;
 }
+.mb-10 {
+    margin-bottom: 10rem;
+}
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
 .review {
+    position: relative;
     width: 30%;
     background-color: #fefefe;
     border: thin solid lightgrey;
     border-radius: 0.5rem;
     box-shadow: 0 0 10px grey;
+}
+#first-reviewer {
+    width: 6rem;
+    height: 6rem;
+    background-image: url("./img/review1.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+}
+#second-reviewer {
+    width: 6rem;
+    height: 6rem;
+    background-image: url("./img/review2.jpeg");
+    background-size: cover;
+    border-radius: 50%;
 }
 #experience {
     background-image: url("./img/office.jpg");
@@ -83,12 +106,14 @@ header {
     max-width: 70rem;
 }
 @media (max-width: 1200px) { 
-    .card {
+    .card,
+    .review {
         width: 40%;
     }
 }
 @media (max-width: 768px) { 
-    .card {
+    .card,
+    .review {
         width: 80%;
     }
 }

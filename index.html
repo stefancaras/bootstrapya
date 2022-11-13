@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrapya</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -79,7 +79,7 @@
             >
               Create your app<i class="bi bi-caret-right-fill ms-2"></i>
             </button>
-            <a href="#" class="text-white bg-purple ms-5">See the steps</a>
+            <a href="#" class="text-white bg-purple ms-4">See the steps</a>
           </div>
         </div>
         <div></div>
@@ -496,22 +496,33 @@
           Why Our <strong>Customers</strong> Love Working With Us
         </h1>
         <div class="d-flex flex-wrap justify-content-center">
-          <div class="review p-5 my-5 mx-3">
+          <div class="review p-5 mt-5 mb-10 mx-3">
             <p>
               “This app allows me to do [problem] from my smartphone where I
               want and when I want to. The interface is easy to navigate and I
               find everything I need quickly. I can't wait for [feature]!”
             </p>
+            <div class="absolute-center d-flex flex-column align-items-center">
+              <div id="first-reviewer"></div>
+              <p>John Smith</p>
+              <p>CEO at important company</p>
+            </div>
           </div>
-          <div class="review p-5 my-5 mx-3">
+
+          <div class="review p-5 mt-5 mb-10 mx-3">
             <p>
               “This app allows me to do [problem] from my smartphone where I
               want and when I want to. The interface is easy to navigate and I
               find everything I need quickly. I can't wait for [feature]!”
             </p>
+            <div class="absolute-center d-flex flex-column align-items-center">
+              <div id="second-reviewer"></div>
+              <p>Jane Doe</p>
+              <p>Manager at small company</p>
+            </div>
           </div>
         </div>
-        <h1 class="my-4">Some of our clients</h1>
+        <h1 class="mb-4 mt-10">Some of our clients</h1>
         <img src="./img/clients.png" alt="Clients" id="clients-img" />
       </section>
       <section id="launch">
@@ -584,5 +595,6 @@
       </div>
     </footer>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
