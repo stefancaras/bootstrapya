@@ -1,4 +1,5 @@
 body {
+    color: #1d2f4c !important;
     font-size: xx-small;
 }
 header {
@@ -52,9 +53,6 @@ header {
 }
 .app-icon .bi::before {
     vertical-align: unset;
-}
-.card-title {
-    font-weight: bold;
 }
 .card {
     width: 25%;
