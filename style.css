@@ -67,6 +67,7 @@ header {
 .absolute-center {
     position: absolute;
     left: 50%;
+    bottom: -8rem;
     transform: translate(-50%);
 }
 .review {
