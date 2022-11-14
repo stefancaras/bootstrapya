@@ -42,9 +42,6 @@ header {
 .fit-content {
     width: fit-content;
 }
-.card {
-    width: 18rem;
-}
 .font-xl {
     font-size: 4rem;
 }
@@ -78,17 +75,9 @@ header {
     border-radius: 0.5rem;
     box-shadow: 0 0 10px grey;
 }
-#first-reviewer {
+.review-img {
     width: 6rem;
     height: 6rem;
-    background-image: url("./img/review1.jpeg");
-    background-size: cover;
-    border-radius: 50%;
-}
-#second-reviewer {
-    width: 6rem;
-    height: 6rem;
-    background-image: url("./img/review2.jpeg");
     background-size: cover;
     border-radius: 50%;
 }
