@@ -61,11 +61,17 @@ header {
 .mb-10 {
     margin-bottom: 10rem;
 }
-.absolute-center {
+.absolute-center-x {
     position: absolute;
     left: 50%;
     bottom: -8rem;
     transform: translate(-50%);
+}
+.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .review {
     position: relative;
